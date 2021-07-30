@@ -35,6 +35,11 @@ body{
     background-color: #E02C6D;
     padding: 10px 24px;
     margin-top: 27px;
+   
+}
+.text-area button:hover{
+    transition: 1s ease;
+    background-color: #0dd1d1;
 }
 .text-area button a, .fa-arrow-right{
     color: white;
@@ -88,3 +93,36 @@ body{
     margin-bottom: 10px;
 }
 /* end all players section */
+
+/* start footer section  */
+.footer-area{
+    text-align: center;
+    padding-top: 158px;
+    padding-bottom: 63px;
+}
+.logo-area{
+    width: 483.87px;
+    margin: 0 auto;
+}
+.logo-area img{
+    width: 100%;
+}
+.icon-area{
+    text-align: center;
+    color: #969BAB; 
+}
+.icon-area >  i{
+    margin-right: 14px;
+    height: 32px;
+    width: 32px;
+    background-color: #cbcccf;
+    border-radius: 50%;
+    padding: 10px 6px 0px 5px;
+    font-size: 16px;
+}
+.copyright-area p{
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 400px;
+}
+/* end footer section  */
