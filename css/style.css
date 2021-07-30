@@ -7,6 +7,7 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
+    
 
 }
 
@@ -53,3 +54,37 @@ body{
 }
 
 /* end main area */
+
+/* start all players section */
+.players{
+    padding-left: 180px;
+    padding-right: 210px;
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player-info{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+.player-img{
+    width:  300px;
+    height: 256px;
+}
+.player-img img{
+    width: 100%;
+}
+.player-text h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: #18191F;
+    margin: 16px 0px;
+}
+.player-text p{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 10px;
+}
+/* end all players section */
