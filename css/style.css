@@ -23,12 +23,13 @@ body{
 .text-area{
     padding-left: 156px;
 }
-.text-area h1{
+.text-area > .text-title h1, h2, h3{
     font-size: 64px;
     font-weight: 700;
-    line-height: 80px;
     color: white;
-    padding-top: 89px;
+}
+.text-title{
+     padding-top: 68px;
 }
 .text-area button{
     border: none;
@@ -124,5 +125,40 @@ body{
     padding-top: 20px;
     font-size: 18px;
     font-weight: 400px;
+    color: #000000;
 }
 /* end footer section  */
+
+/* media query */
+
+@media  only screen and (max-width: 688px){
+
+    .container{
+        background-color: red;
+        width: 100%;
+    }
+
+    .main-area {
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .text-area {
+        padding-left: 0px;
+    }
+    .text-area h1 {
+        font-size: 40px;
+        font-weight: 700;
+        color: white;
+        padding-top: 20px;
+    }
+
+.players{
+        grid-template-columns: repeat(1, 1fr);
+       justify-content: center;
+       padding-right: 0;
+       /* padding-left: 0; */
+    }
+}
